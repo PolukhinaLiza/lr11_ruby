@@ -1,0 +1,10 @@
+<br>
+<p>Введите число</p>
+<form action="<%= '/output'%>">
+   <input name="value" placeholder="1">
+   <input type="submit">
+</form>
+
+<div class="mt-3 d-flex flex-column justify-content-center align-items-start">
+    <p><%= link_to t(:index_as_xml), index_all_url(format: :xml) %></p>
+  </div>
